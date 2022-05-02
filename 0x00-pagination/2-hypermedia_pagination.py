@@ -76,7 +76,7 @@ class Server:
         prev_page = page - 1 if page > 1 else None
         next_page = page + 1 if page < all_pages else None
 
-        return  {
+        return {
             'page_size': page_size,
             'page': page,
             'data': paged_data,
