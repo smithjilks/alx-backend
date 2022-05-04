@@ -1,14 +1,15 @@
 #!/usr/bin/python3
-""" Create a class LRUCache that inherits from BaseCaching and is a caching system """
+""" Create a class LRUCache that inherits
+from BaseCaching and is a caching system """
 
 from base_caching import BaseCaching
 
 
 class LRUCache(BaseCaching):
-    """ class LRUCache that inherits from BaseCaching and is a caching system LRU caching """
+    """ Inherits from BaseCaching and is a caching system LRU caching """
 
     def __init__(self):
-        """ superconstructor """
+        """ Init method """
         super().__init__()
         self.itemList = []
 
